@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.items{
+    @apply flex flex-col w-full justify-between items-center gap-[10vw] px-7
+}
+
+.items > img{
+    @apply w-[30vw]
+}
+
+.items > p{
+    @apply text-center text-gray-500
+    font-bold tracking-wider
+}
+
+.items > div{
+    @apply text-black text-2xl font-bold font-serif
+}
+
+.btn{
+    @apply px-7 py-3 mb-20 border-4 border-white text-white tracking-wider font-sans uppercase font-semibold block mx-auto hover:bg-sky-700
+}
+
+.outerDiv{
+    @apply uppercase tracking-wider text-gray-500 font-serif
+}
+
+.innerDiv{
+    @apply uppercase tracking-wider font-serif text-center flex gap-y-3 flex-col font-bold text-sm
+}
